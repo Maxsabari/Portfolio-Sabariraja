@@ -666,7 +666,7 @@
 
         }
 header h1 {
-    white-space: normal; /* Allows text to break into two lines */
+    white-space: normal; /* Allows text wrapping */
     text-align: center;
     word-break: break-word;
 }
