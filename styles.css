@@ -665,8 +665,3 @@
             text-decoration: underline;
 
         }
-header h1 {
-    white-space: normal; /* Allows text wrapping */
-    text-align: center;
-    word-break: break-word;
-}
