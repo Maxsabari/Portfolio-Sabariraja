@@ -666,8 +666,14 @@
 
         }
 header h1 {
-    white-space: normal; /* Allows text wrapping */
+    white-space: normal; /* Allows breaking into two lines */
     text-align: center;
     word-break: break-word;
+    display: inline-block; /* Helps center it properly */
 }
-       
+
+header p {
+    text-align: center;
+    margin-top: 5px; /* Adjust spacing as needed */
+    font-size: 1.5rem;
+}
