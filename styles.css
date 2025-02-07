@@ -665,3 +665,12 @@
             text-decoration: underline;
 
         }
+
+        header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem); /* Auto-resizes based on screen width */
+            font-weight: 700;
+            color: #ffffff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
